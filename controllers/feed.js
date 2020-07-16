@@ -16,10 +16,16 @@ exports.getPosts = (req, res, next) => {
 };
 exports.createPosts = (req, res, next) => {
   const title = req.body.title;
-  console.log(name);
+
   const content = req.body.content;
   res.status(201).json({
     message: "Successful",
-    post: { id: new Date().toISOString(), title: title, content: content },
+    post: {
+      _id: new Date().toISOString(),
+      title: title,
+      content: content,
+      creator: { name: "Samir" },
+      createdAt: new Date(),
+    },
   });
 };
