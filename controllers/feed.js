@@ -5,7 +5,7 @@ exports.getPosts = (req, res, next) => {
         _id: "1",
         title: "Tech related Tips",
         content: "Lorem",
-        image: "images",
+        image: "images/url",
         creator: {
           name: "Samir",
         },
