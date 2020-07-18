@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "nodemon app.js",
-    "gita": "git add . && git commit -m'Commit via Script' && git push origin master"
+    "gita": "git add . && git commit -m'Commit via Script' && git push origin master",
+    "gith": "git add . && git commit -m'Commit via Script' && git push heroku master"
   },
   "author": "",
   "license": "ISC",
