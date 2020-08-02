@@ -67,7 +67,7 @@ app.use((error, req, res, next) => {
 });
 
 mongoose
-  .connect("ypur url")
+  .connect("your url")
   .then((result) => {
     app.listen(8080);
   })
